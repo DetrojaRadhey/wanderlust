@@ -25,5 +25,30 @@ Wanderlust leverages a robust technology stack for a smooth, secure, and scalabl
 | Frontend | HTML, CSS, JavaScript (Bootstrap) |
 | Third-Party Integrations | Mapbox, Cloudinary, Passport |
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/DetrojaRadhey/wanderlust.git
+```
+Go to the project directory and install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  node index.js
+```
+or
+```bash
+  nodemon index.js
+```
+
+Go to `localhost:8080/listings` on browser, or you can use service like [Render](https://render.com/) for deployment.
+
 ## Connect with me
  - [LinkedIn](https://www.linkedin.com/in/radhey-detroja-4308a8255/)
